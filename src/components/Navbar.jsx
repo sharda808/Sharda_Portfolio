@@ -1,5 +1,6 @@
 import { Download } from "lucide-react";
-import resume from "../assets/ATS_Resume.pdf";
+import resume from "../assets/Resume_sharda.pdf";
+import ToggleTheme from "./ToggleTheme";
 const Navbar = () => {
   const navItems = [
     "Home",
@@ -44,6 +45,8 @@ const Navbar = () => {
           <Download size={18} />
           Resume
         </a>
+  
+      <ToggleTheme />
       </div>
     </nav>
   );
